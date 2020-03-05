@@ -7,7 +7,6 @@ func _ready():
 	pass
 	
 
-
 func _on_Timer_timeout():
 	if randf() < probability:
 		var m = Meteor.instance()
